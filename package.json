@@ -1,5 +1,5 @@
 {
-  "name": "handpose",
+  "name": "handpose-detection",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +11,7 @@
     "fingerpose": "0.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
+    "react-scripts": "^4.0.3",
     "react-webcam": "^5.2.0"
   },
   "scripts": {
@@ -21,7 +21,8 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "wesbos"
+    
   },
   "browserslist": {
     "production": [
@@ -34,5 +35,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyBobongo/Hand-Pose-Detection.git"
+  },
+  "author": "Anthony Bobongo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyBobongo/Hand-Pose-Detection/issues"
+  },
+  "homepage": "https://github.com/AnthonyBobongo/Hand-Pose-Detection#readme"
 }
